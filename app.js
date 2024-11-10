@@ -34,7 +34,7 @@ function playNextAnimation() {
 }
 
 loader.load(
-  "/t_rex.glb",
+  "./t_rex.glb",
   function (gltf) {
     rex = gltf.scene;
     scene.add(rex);
